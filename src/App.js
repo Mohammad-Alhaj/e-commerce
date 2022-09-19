@@ -18,7 +18,7 @@ function App() {
   return (
 
     <div className="App">
-        <When condition={isSingin}>
+        <When condition={isSingin} >
       <Header/>
       <Category/>
       <ToastContainer/>
