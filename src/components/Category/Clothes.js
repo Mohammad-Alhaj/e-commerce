@@ -4,7 +4,7 @@ import { categoryAction } from "../../store/cart"
 import { getData } from "../../store/API"
 import Cards from "../Cards/Cards"
 
-export default function Clothes(props) {
+export default function Clothes(props)  {
 const dispatch = useDispatch()
     return(
         <>
